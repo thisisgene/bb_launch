@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/script.js"></script>
+  <title>Eugene Delta</title>
+</head>
+
+<body>
+  <header class="v-header container">
+    <div id="black-overlay" class="black-overlay">
+      <img src="./assets/loader.gif" alt="">
+    </div>
+<<<<<<< HEAD
+    <div class="fullscreen-video-wrap">
+      <video id="video" width="1920" height="1080" src="./assets/bb_loop.mp4" autoplay loop muted></video>
+    </div>
+    <div class="header-overlay">
+
+      <div class="title-container">
+        <h1 class="title">BRIDGES BURN</h1>
+        <h1 class="sub-title">Eugene Delta feat. Bitten By</h1>
+        <h1 class="ano-title">Out now</h1>
+      </div>
+      <div class="mobile-background">
+      </div>
+
+
+
+      <div class="link-container">
+
+        <div class="watch-container media-link-container">
+          <h3 class="small-title">Watch Video on</h3>
+          <div class="icon-container">
+            <a target="blank" href="https://youtu.be/S41TYMdkLpc"><img class="icon" src="./assets/youtube.png" alt=""></a>
+          </div>
+        </div>
+        <div class="stream-container media-link-container">
+          <div class="icon-container">
+            <h3 class="small-title">Stream it on</h3>
+
+            <a target="blank" href="https://open.spotify.com/album/5nL6YIHDfrqE7prKAsieKN"><img class="icon" src="./assets/spotify.png"
+                alt=""></a>
+            <a target="blank" href="https://play.google.com/music/m/Bw7qnolzocrrcko2drmo72ggdr4?t=Bridges_Burn_-_Eugene_Delta"><img
+                class="icon" src="./assets/google.png" alt=""></a>
+            <a target="blank" href="https://itunes.apple.com/at/album/bridges-burn-feat-bitten-by-single/1438144689?l=en"><img
+                class="icon" src="./assets/apple.png" alt=""></a>
+
+            <!-- <a target="blank" href="https://itunes.apple.com/at/album/bridges-burn-feat-bitten-by-single/1438144689?l=en"><img class="icon"
+                  src="./assets/itunes.png" alt=""></a> -->
+            <a target="blank" href="https://www.amazon.de/Bridges-Burn/dp/B07J1XC854"><img class="icon" src="./assets/amazon.png"
+                alt=""></a>
+            <a target="blank" href="https://www.deezer.com/en/album/74892932"><img class="icon" src="./assets/deezer.png"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sm-links-mobile">
+        <p>More Eugene Delta:</p>
+        <a href="https://instagram.com/eugene.delta"><img class="icon" src="./assets/instagram.png" alt=""></a>
+        <a href="https://facebook.com/eugenedelta"><img class="icon" src="./assets/facebook.png" alt=""></a>
+        <a href="https://twitter.com/eugenedelta3000"><img class="icon" src="./assets/twitter.png" alt=""></a>
+        <a href="mailto:contact@eugenedelta.com"><img class="icon" src="./assets/mail.png" alt=""></a>
+
+      </div>
+      <div class="video-overlay"></div>
+
+    </div>
+    <div class="right-menu">
+      <div id="mute-button" class="mute-button" onclick="toggleMute()">
+
+      </div>
+
+      <div class="sm-links">
+        <a href="https://instagram.com/eugene.delta"><img class="icon" src="./assets/instagram.png" alt=""></a>
+        <a href="https://facebook.com/eugenedelta"><img class="icon" src="./assets/facebook.png" alt=""></a>
+        <a href="https://twitter.com/eugenedelta3000"><img class="icon" src="./assets/twitter.png" alt=""></a>
+        <a href="mailto:contact@eugenedelta.com"><img class="icon" src="./assets/mail.png" alt=""></a>
+
+      </div>
+      <div class="dummy"></div>
+    </div>
+
+  </header>
+
+
+</body>
+
+</html>
+=======
+    <div class="icon-container"><a href="https://instagram.com/eugene.delta" target="blank"><img src="./assets/img/icon-instagram.png"/></a><a href="https://facebook.com/eugenedelta" target="blank"><img src="./assets/img/icon-fb.png"/></a><a href="mailto:contact@eugenedelta.com"><img src="./assets/img/icon-mail.png"/></a></div>
+  </div>
+</section>
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Oct 12, 2018 16:00:00").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+      // Get todays date and time
+      var now = new Date().getTime();
+      
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+      
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      // Output the result in an element with id="demo"
+      document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+      
+      // If the count down is over, write some text 
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("counter").innerHTML = "EXPIRED";
+      }
+  }, 1000);
+</script>
+>>>>>>> 9af5b5468d0d1f4da9634f05934f61b61f1ae51a
